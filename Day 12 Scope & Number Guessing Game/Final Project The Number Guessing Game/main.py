@@ -45,7 +45,6 @@ while is_playing:
     number = random.randint(1, 100)
     print(logo)
     print("I'm thinking of a number between 1 and 100.")
-    print(f"Pssst, the correct answer is {number}") #Testing code
     difficulty = pick_from_2_choice("Choose a difficulty", "easy", "hard")
     if difficulty == "easy":
         player_health = 10
