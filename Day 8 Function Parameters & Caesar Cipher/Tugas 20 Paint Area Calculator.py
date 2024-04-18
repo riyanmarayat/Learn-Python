@@ -2,7 +2,7 @@
 def paint_calc(height, width, cover):
 
   number_of_cans = int(height * width / cover) + (((height*width) % cover) > 0)
-  print(f"You\'ll need {number_of_cans} cans of paint.'")
+  print(f"You\'ll need {number_of_cans} cans of paint.")
 
 # Write your code above this line 👆
 # Define a function called paint_calc() so the code below works.   

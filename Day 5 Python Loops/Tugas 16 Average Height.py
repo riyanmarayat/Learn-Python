@@ -11,4 +11,4 @@ for student_height in student_heights:
     total_tinggi += student_height
     total_siswa += 1
 average_student_heights = total_tinggi / total_siswa
-print(f"total height = {total_tinggi}\nnumber of students = {total_siswa}\naverage height = {average_student_heights: .0f}")
+print(f"total height = {total_tinggi}\nnumber of students = {total_siswa}\naverage height ={average_student_heights: .0f}")

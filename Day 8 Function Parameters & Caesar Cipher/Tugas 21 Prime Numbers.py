@@ -8,7 +8,7 @@ def prime_checker(number):
   if prime_number == True and number != 1:
     print("It\'s a prime number.")
   else:
-    print("It\'s not a prime number")
+    print("It\'s not a prime number.")
     
 # Write your code above this line 👆
     
